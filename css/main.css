@@ -5,6 +5,9 @@
 #logo{
     position: absolute;
 }
+#line {
+    border-left: solid black 1px;
+}
 .row {
     width: 1920px !important;
 }
