@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;    
     }
+    #logo{
+        position: absolute;
+    }
+    #center{
+        text-align: center;
+        width: 100%;
+        height: auto;
+        top: 35%;
+        position: absolute;
+    }
     .button_elev{
         text-decoration: none;
         position: relative;
@@ -12,10 +22,11 @@
         font-size: 34px;
         text-align: center;
         border: solid 2px #31A6FF;
-        border-radius: 50px;
+        border-radius: 3px;
         padding: 10px 70px;
     }
     .button_elev:hover{
+    transition: all .475s ease;
     background-color: #31A6FF; 
     color: white;
     }
@@ -30,7 +41,7 @@
         font-size: 34px;
         text-align: center;
         border: solid 2px #31A6FF;
-        border-radius: 50px;
+        border-radius: 3px;
         padding: 10px 70px;
         }
         .button_personal:hover{
