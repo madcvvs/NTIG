@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;    
+    }
+    .button_elev{
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+        color:#31A6FF;
+        font-family: "proxina nova";
+        font-weight: 100;
+        font-size: 34px;
+        text-align: center;
+        border: solid 2px #31A6FF;
+        border-radius: 50px;
+        padding: 10px 70px;
+    }
+    .button_elev:hover{
+    background-color: #31A6FF; 
+    color: white;
+    }
+    
+    .button_personal{
+        text-decoration: none;
+        position: relative;
+        display: inline-block;
+        color:#31A6FF;
+        font-family: "proxina nova";
+        font-weight: 100;
+        font-size: 34px;
+        text-align: center;
+        border: solid 2px #31A6FF;
+        border-radius: 50px;
+        padding: 10px 70px;
+        }
+        .button_personal:hover{
+        transition: all .475s ease;
+        background-color: #31A6FF; 
+        color: white;
+    }
