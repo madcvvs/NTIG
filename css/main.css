@@ -1,51 +1,55 @@
 *{
-    margin: 0;
-    padding: 0;    
+margin: 0;
+padding: 0;    
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+#logo{
+    position: absolute;
+}
+#buttons {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    top: 35%;
+    position: absolute;
+}
+.button_elev{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color:#31A6FF;
+    font-family: "proxina nova";
+    font-weight: 100;
+    font-size: 34px;
+    text-align: center;
+    border: solid 2px #31A6FF;
+    border-radius: 3px;
+    padding: 10px 70px;
+}
+.button_elev:hover{
+transition: all .475s ease;
+background-color: #31A6FF; 
+color: white;
+}
+
+.button_personal{
+    text-decoration: none;
+    position: relative;
+    display: inline-block;
+    color:#31A6FF;
+    font-family: "proxina nova";
+    font-weight: 100;
+    font-size: 34px;
+    text-align: center;
+    border: solid 2px #31A6FF;
+    border-radius: 3px;
+    padding: 10px 70px;
     }
-    #logo{
-        position: absolute;
-    }
-    #center{
-        text-align: center;
-        width: 100%;
-        height: auto;
-        top: 35%;
-        position: absolute;
-    }
-    .button_elev{
-        text-decoration: none;
-        position: relative;
-        display: inline-block;
-        color:#31A6FF;
-        font-family: "proxina nova";
-        font-weight: 100;
-        font-size: 34px;
-        text-align: center;
-        border: solid 2px #31A6FF;
-        border-radius: 3px;
-        padding: 10px 70px;
-    }
-    .button_elev:hover{
+    .button_personal:hover{
     transition: all .475s ease;
     background-color: #31A6FF; 
     color: white;
-    }
-    
-    .button_personal{
-        text-decoration: none;
-        position: relative;
-        display: inline-block;
-        color:#31A6FF;
-        font-family: "proxina nova";
-        font-weight: 100;
-        font-size: 34px;
-        text-align: center;
-        border: solid 2px #31A6FF;
-        border-radius: 3px;
-        padding: 10px 70px;
-        }
-        .button_personal:hover{
-        transition: all .475s ease;
-        background-color: #31A6FF; 
-        color: white;
-    }
+}
