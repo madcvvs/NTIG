@@ -24,7 +24,8 @@
     position: absolute;
 }
 .button_elev{
-    margin-right: 100px;
+    margin-right: 50px;
+    width: 300px;
     text-decoration: none;
     position: relative;
     display: inline-block;
@@ -45,7 +46,8 @@
 }
 
 .button_personal{
-    margin-left: 100px;
+    margin-left: 50px;
+    width: 300px;
     position: relative;
     display: inline-block;
     color:#31A6FF;
