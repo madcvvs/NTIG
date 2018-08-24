@@ -17,6 +17,7 @@ padding: 0;
     position: absolute;
 }
 .button_elev{
+    margin-right: 100px;
     text-decoration: none;
     position: relative;
     display: inline-block;
@@ -36,6 +37,7 @@ color: white;
 }
 
 .button_personal{
+    margin-left: 100px;
     text-decoration: none;
     position: relative;
     display: inline-block;
