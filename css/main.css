@@ -2,18 +2,25 @@
     margin: 0;
     padding: 0;
 }
-.col-centered{
-    float: none;
-    margin: 0 auto;
-}
 #logo{
     position: absolute;
+}
+.row {
+    width: 1920px !important;
 }
 #buttons {
     text-align: center;
     width: 100%;
     height: auto;
     top: 35%;
+    position: absolute;
+}
+#buttonwrapper {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    bottom: 0px;
+    top: 45%;
     position: absolute;
 }
 .button_elev{
