@@ -31,14 +31,14 @@ padding: 0;
     padding: 10px 70px;
 }
 .button_elev:hover{
-transition: all .475s ease;
-background-color: #31A6FF; 
-color: white;
+    text-decoration: none;
+    transition: all .475s ease;
+    background-color: #31A6FF; 
+    color: white;
 }
 
 .button_personal{
     margin-left: 100px;
-    text-decoration: none;
     position: relative;
     display: inline-block;
     color:#31A6FF;
@@ -51,7 +51,8 @@ color: white;
     padding: 10px 70px;
     }
     .button_personal:hover{
-    transition: all .475s ease;
-    background-color: #31A6FF; 
-    color: white;
+        text-decoration: none;
+        transition: all .475s ease;
+        background-color: #31A6FF; 
+        color: white;
 }
