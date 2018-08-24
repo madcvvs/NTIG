@@ -1,6 +1,6 @@
 *{
-margin: 0;
-padding: 0;    
+    margin: 0;
+    padding: 0;
 }
 .col-centered{
     float: none;
@@ -50,9 +50,9 @@ padding: 0;
     border-radius: 3px;
     padding: 10px 70px;
     }
-    .button_personal:hover{
-        text-decoration: none;
-        transition: all .475s ease;
-        background-color: #31A6FF; 
-        color: white;
+.button_personal:hover{
+    text-decoration: none;
+    transition: all .475s ease;
+    background-color: #31A6FF; 
+    color: white;
 }
