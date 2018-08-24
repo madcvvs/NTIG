@@ -16,6 +16,7 @@
         padding: 10px 70px;
     }
     .button_elev:hover{
+    transition: all .475s ease;
     background-color: #31A6FF; 
     color: white;
     }
