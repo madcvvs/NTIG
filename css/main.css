@@ -23,9 +23,6 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     overflow:hidden;
     height:0;
-    -webkit-transition:height 200ms ease-in;
-    -moz-transition:height 200ms ease-in;
-    -o-transition:height 200ms ease-in;
     transition:height 200ms ease-in;
 }
 .col-md-9, .col-md-3 {
@@ -60,7 +57,7 @@ body {
 
 .dropdown:hover .dropdown-content {
     visibility: visible;
-    height: 200px;
+    height: 195px;
 }
 
 #logo{
