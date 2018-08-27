@@ -21,9 +21,7 @@ body {
     background-color: rgb(241, 241, 241);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
 }
-
 .col-md-9, .col-md-3 {
     height: 100vh;
     background-color: #222222;
@@ -50,9 +48,13 @@ body {
     background-color: #f0f0f0;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 #logo{
     position: absolute;
@@ -76,7 +78,7 @@ body {
     text-align: center;
     height: auto;
     bottom: 0px;
-    top: 30%;
+    top: 25%;
     position: absolute;
 }
 .button_elev{
