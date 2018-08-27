@@ -4,19 +4,18 @@ Date.prototype.getWeek = function() {
 }
 
 function startTime() {
-    var today = new Date();
-    var weekNumber = today.getWeek();
-    var h = today.getHours();
-    var m = today.getMinutes();
-    var s = today.getSeconds();
+    var klocka = new Date();
+    var weekNumber = klocka.getWeek();
+    var t = klocka.getHours();
+    var m = klocka.getMinutes();
+    var s = klocka.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
+    document.getElementById('txt').innerHTML = t + ":" + m + ":" + s;
     document.getElementById("vecka").innerHTML = "Vecka: " + weekNumber;
-    var t = setTimeout(startTime, 500);
+    var x = setTimeout(startTime, 500);
 }
 function checkTime(i) {
-    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    if (i < 10) {i = "0" + i};
     return i;
 }

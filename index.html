@@ -9,22 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script src="js/main.js">
-        function startTime() {
-            var klocka = new Date();
-            var t = klocka.getHours();
-            var m = klocka.getMinutes();
-            var s = klocka.getSeconds();
-            m = checkTime(m);
-            s = checkTime(s);
-            document.getElementById('txt').innerHTML = t + ":" + m + ":" + s;
-            var x = setTimeout(startTime, 500);
-        }
-        function checkTime(i) {
-            if (i < 10) {i = "0" + i};
-            return i;
-        }
-    </script>
+    <script src="js/main.js"></script>
 </head>
 <body onload="startTime()">
 
@@ -62,7 +47,7 @@
             <div class="boxcontainer">
                 <h1 id="txt"></h1>
                 <hr>
-                <h4 id="vecka">Vecka: </h4>
+                <h4 id="vecka"></h4>
                 <hr>
             </div>
         </div>
