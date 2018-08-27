@@ -58,7 +58,7 @@ body {
 
 .dropdown:hover .dropdown-content {
     visibility: visible;
-    height: 195px;
+    height: 192px;
 }
 
 #logo{
