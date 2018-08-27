@@ -15,6 +15,7 @@ body {
 }
 
 .dropdown-content {
+    width: 300px;
     display: none;
     position: absolute;
     background-color: rgb(241, 241, 241);
