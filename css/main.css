@@ -11,6 +11,7 @@ body {
 .dropdown {
     position: relative;
     display: inline-block;
+    margin: 0 50px 0 50px;
 }
 
 .dropdown-content {
@@ -74,7 +75,6 @@ body {
     position: absolute;
 }
 .button_elev{
-    margin-right: 50px;
     width: 300px;
     text-decoration: none;
     position: relative;
@@ -96,7 +96,6 @@ body {
 }
 
 .button_personal{
-    margin-left: 50px;
     width: 300px;
     position: relative;
     display: inline-block;
