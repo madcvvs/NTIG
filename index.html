@@ -8,9 +8,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css">
-    <script src="js/main.js"></script>
+    <script src="js/main.js">
+    function startTime() {
+    var klocka = new Date();
+    var t = klocka.getHours();
+    var m = klocka.getMinutes();
+    var s = klocka.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    t + ":" + m + ":" + s;
+    var x = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};
+    return i;
+}</script>
 </head>
-<body>
+<body onload="startTime()">
     <div class="row">
         <div class="col-md-9 text-center">
             <div class="boxcontainer">
@@ -39,7 +54,7 @@
         </div>
         <div class="col-md-3 text-center">
             <div class="boxcontainer">
-                <h1>14:47</h1>
+                <h1 id="txt"></h1>
                 <hr>
             </div>
         </div>
