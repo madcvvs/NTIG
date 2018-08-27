@@ -25,9 +25,9 @@ body {
 .col-md-9, .col-md-3 {
     height: 100vh;
     background-color: #222222;
-    padding-top: 2.5vh;
-    padding-right: 0.1vh !important;
-    padding-left: 3.5vh !important;
+    padding-top: 2.5vh !important;
+    padding-right: 2.5vh !important;
+    padding-left: 2.5vh !important;
     padding-bottom: 2.5vh !important;
 }
 
@@ -40,7 +40,7 @@ body {
 
 .boxcontainer {
     width: 100%;
-    height: 95vh;
+    height: 100%;
     background-color: #f0f0f0;
 }
 
@@ -55,8 +55,9 @@ body {
     border-left: solid black 1px;
 }
 .row {
-    width: 1920px !important;
+    width: 100%;
 }
+
 #buttons {
     text-align: center;
     width: 100%;
@@ -65,8 +66,8 @@ body {
     position: absolute;
 }
 #buttonwrapper {
-    text-align: center;
     width: 100%;
+    text-align: center;
     height: auto;
     bottom: 0px;
     top: 30%;
